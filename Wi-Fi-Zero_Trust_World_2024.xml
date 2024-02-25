@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>Zero Trust World 2024</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>5A65726F20547275737420576F726C642032303234</hex>
+			<name>Zero Trust World 2024</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB01000000DD99BAF01A778B45B8A9DC7E2086D2C80000000002000000000010660000000100002000000000218D465740AB9955BF447FBB2A8B36ECED2FB797FDEE0FE08467829578B7FB000000000E800000000200002000000056A07915A54EECE4ED8883D6F09C3BF285A30FC0D4EC76D029FDB596C5FAE39C100000005496B630737F80E54A848BE6BED9305C400000009D00F198A0340231706211F54157CD3FF5DCEA6B50DB0A050DB9C9D257D80F448E4FAECB4BA181137267492F1F5056912D26AE91CE248179B06C4F9D0D2BB608</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>3969179434</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>
